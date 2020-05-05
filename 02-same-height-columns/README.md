@@ -1,4 +1,4 @@
-#same height columns
+# same height columns
 
 Try to get it as close as possible to the image of the prototype design. Your task is to translate this into current, readable code.  
 - The boxes should be the same height despite differing content (the box with the image should be the same size as the box with content).
