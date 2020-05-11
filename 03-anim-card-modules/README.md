@@ -2,6 +2,7 @@
 
 Translate this into current, readable code. Separate your CSS file from HTML.
 - Get everything to be the exact (colors, font size, line-heights, box shadows). 
+- Avoid using position styles in CSS.
 - I used grid layout for the build but you should use flexbox. 
 - The boxes should be the same height despite differing content (the box with the image should be the same size as the box with content).
 - The design should be responsive.
