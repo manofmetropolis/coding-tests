@@ -21,7 +21,7 @@ The list does not end here, there are many other interesting things that you can
 source: https://www.tutorialrepublic.com/jquery-tutorial/
 
 
-## like our banner ads, you don't have to package up script files along with HTML
+## like our banner ads, you don't have to include script files in the directory along with HTML
 
 - click on the source link above and read through the basics.
 - find the part where they give you a link to the CDN version of jQuery and add that link to the starter HTML I made. 
