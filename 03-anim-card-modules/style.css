@@ -10,5 +10,30 @@ body {
 	flex-direction: row;
 	width: 80%;
 	margin: 0 auto;
-	justify-content: space-around;
+	justify-content: center;
+}
+
+.module {
+	background-color: #efefef;
+	width: 25%;
+	margin: 10px 5px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column; 
+	width: 75%;
+	margin: 0 auto;
+}
+
+.name {
+	font-size: 24px;
+}
+
+.title {
+	font-size: 18px;
+}
+
+.copy {
+	font-size: 14px;
 }
