@@ -8,6 +8,8 @@
 		font-family: arial;
 	}
 
+	body, html {width: 100%; margin: 0; padding: 0;}
+
 	h1 {
 		font-size: 2vw;
 		line-height: 2;
@@ -40,7 +42,9 @@
 		margin-bottom: 10%;
 	}
 
-	.img-box{width: 100%;}
+	.img-box{
+		width: 100%;
+	}
 
 	#prince {
 		width: 100%;
@@ -48,7 +52,7 @@
 	}
 
 	button {
-		margin: 10% 0 5% 0;
+		width: 100%;
 		border: 2px solid #d9d9d9;
 		border-radius: 9px;
 		background-color: #c84843;
@@ -56,11 +60,12 @@
 		font-size: 1.5vw;
 		letter-spacing: 1px;
 		text-transform: uppercase;
-		padding: 10px 0;
+    	padding-top: 10px;
+    	padding-bottom: 10px;
 	}
 
 		/*SMALL SCREENS*/
-		@media screen and (max-width: 600px) {
+		@media screen and (max-width: 640px) {
 	  	h1 {
 	  		font-size: 4vw;
 	  		text-align: center;
@@ -68,8 +73,11 @@
 
 	  	div.copy, button {
 	    font-size: 3vw;
-	    padding: 2%; 
 	  	}
+
+	  	div.copy{
+	    padding: 2%;
+	    }
 
 	  	.main {
 	  		display: flex;
@@ -80,6 +88,7 @@
 	  	.col {
 		    justify-content: space-around;
 		    width: 100%;
+		    padding: 0; 
 		    align-items: stretch;
 		    margin-bottom: 2%;
 			}
@@ -101,7 +110,7 @@
 				<p>Because, as he told her, “That’s the competition.” She also remembers rivalry between Prince and Michael Jackson. She adds that one difference between the two is that Prince did everything himself whereas Jackson needed Quincy Jones to produce him.</p>
 			</div>
 		</div>
-			<button>Let&rsquo;s Go Crazy</button>
+		<button>Let&rsquo;s Go Crazy</button>
 	</div>
 	<div class="col">
 		<div class="content">
@@ -114,7 +123,7 @@
 				<p>You can hear that on the full-length version of ‘Delirious.’ I mean, ‘Do Yourself a Favor’ is probably the most interesting for me because that goes back to before my entrance onto the scene, when [Prince] played with [the early group] 94 East.”</p>
 			</div>
 		</div>
-			<button>Let&rsquo;s Go Crazy</button>
+				<button>Let&rsquo;s Go Crazy</button>
 	</div>
 </div>
 
