@@ -17,13 +17,21 @@ body {
 	background-color: #efefef;
 	width: 25%;
 	margin: 10px 5px;
+	padding: 5px;
 }
 
 .content {
 	display: flex;
 	flex-direction: column; 
-	width: 75%;
+	width: 85%;
 	margin: 0 auto;
+}
+
+.cover {
+	height: 125px;
+	width: 125px;
+	align-self: center;
+	background-color: purple;
 }
 
 .name {
