@@ -1,6 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
+	
+	<!-- I believe this is the answer you are looking for in regards to not stacking on mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
 	<title>Same-Height Columns Test</title>
 </head>
 <style type="text/css">
@@ -65,7 +70,11 @@
 	}
 
 		/*SMALL SCREENS*/
+<<<<<<< HEAD
 		@media screen and (max-width: 640px) {
+=======
+		@media screen and (max-width: 375px) { /* most common mobile width is 360 – iPhones is 375, so going +15 helps cover both */
+>>>>>>> 36d27b2defd91026d3264343976a103e3b794e72
 	  	h1 {
 	  		font-size: 4vw;
 	  		text-align: center;
