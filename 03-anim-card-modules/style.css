@@ -6,6 +6,7 @@ body {
 }
 
 .row {
+	padding: 25px;
 	display: flex;
 	flex-direction: row;
 	max-width: 1200px;
@@ -14,6 +15,7 @@ body {
 }
 
 .module {
+	position: relative;
 	background-color: #efefef;
 	width: 30%;
     display: flex;
@@ -21,7 +23,18 @@ body {
     border-top: 10px solid #C2185B;
     border-radius: 10px;
     max-width: 350px;
-    margin: 25px 5px;
+    margin: 0 5px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,.4);
+    -webkit-transition: .2s
+  	transition: .2s
+  	position: relative;
+  	top: 0px;
+}
+
+.module:hover {
+	top: -10px;
+  	-webkit-transition: .5s
+	transition: .5s;
 }
 
 .content {
